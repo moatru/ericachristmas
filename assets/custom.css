@@ -5,8 +5,28 @@
 .stack {
   display: block;
 }
-/* PHOTO SLIDER */
 
+nav.fixedA{
+  position: fixed;
+  top: 50%;
+  width: 11rem;
+  z-index: 20;
+}
+
+nav.fixedB{
+  position: fixed;
+  top: 40%;
+  right: 100%
+  width: 11rem;
+  z-index: 20;
+}
+
+nav.fixedB2{
+  position: fixed;
+  top: 50%;
+}
+
+/* PHOTO SLIDER */
 #images {
   width: 70%;
   height: 75vh;
