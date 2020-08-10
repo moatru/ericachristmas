@@ -35,6 +35,7 @@
   .padded   {  padding: 2% 5%;    }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
+  .bottom {padding-bottom: .8rem;}
 
   .capped-width { width: 80%; margin: auto;}
 
@@ -59,7 +60,7 @@
     letter-spacing: 0.5em;
   }
 
-  h2  { font-size: 2.2rem;  }
+  h2  { font-size: 3rem;  }
   h3  { font-size: 18px;  }
   h4  { font-size: 1.4rem;  }
   p   { font-size: 1rem;  }
@@ -684,12 +685,18 @@
   transition: all .35s;
 }
 
-/* NEED DANIELs HELP to stop auto popping back open, and make the thing twist */
 .accordion dt a::after {
   content: "+";
 }
 .open::after {
   transform: rotateZ(45deg);
+}
+
+/* This kicks in just under the md breaking point */
+@media(max-width:885px) {
+	h2{
+    font-size: 2.5rem;
+  }
 }
 
 /* This media query kicks into action at the gridlex sm breakpoint */
@@ -717,10 +724,16 @@
     flex-direction: row;
   }
 
+  h2{
+    font-size: 2.3rem;
+  }
+
 } /* end media query */
 
 
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:576px) {
-
+  h2{
+    font-size: 1.5rem;
+  }
 } /* end media query */
