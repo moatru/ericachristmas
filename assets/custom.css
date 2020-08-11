@@ -1,22 +1,73 @@
-.header-offset{
-  padding-top: 4rem;
-}
-
+/* NAV AND BLOCK ELEMENTS */
 .stack {
   display: block;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 1 VERSION (A) */
 nav.fixedA{
   position: fixed;
   left: 12%;
   top: 50%;
-  width: 11rem;
   z-index: 20;
+  
 }
 
+#sidenav a{
+  padding: 4px 6px;
+  font-family: 'Amiko', sans-serif;
+
+}
+
+/* PHOTO SLIDER A */
+#images {
+  width: 70%;
+  height: 28rem;
+  overflow: hidden;
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+}
+#images img {
+  position: absolute;
+  top: 0;
+  left: -400px;
+  z-index: 1;
+  opacity: 0;
+  transition: all linear 500ms;
+  -o-transition: all linear 500ms;
+  -moz-transition: all linear 500ms;
+  -webkit-transition: all linear 500ms;
+}
+#images img:target {
+  left: 0;
+  z-index: 9;
+  opacity: 1;
+}
+#images img:first-child {
+  left: 0;
+  opacity: 1;
+}
+#slider a {
+  text-decoration: none;
+  padding: 4px 6px;
+  color: black;
+  font-family:'Nova Cut', cursive;
+}
+#slider a:hover {
+  background: black;
+  color: white;
+}
+
+/* 2 VERSION (B) */
 nav.fixedB{
   position: fixed;
-  top: 40%;
+  top: 50%;
   right: 10%;
   width: 11rem;
   z-index: 20;
@@ -28,8 +79,8 @@ nav.fixedB2{
   right: 70%;
 }
 
-/* PHOTO SLIDER */
-#images {
+/* PHOTO SLIDER B */
+/* #images {
   width: 45%;
   height: 72vh;
   overflow: hidden;
@@ -67,10 +118,4 @@ nav.fixedB2{
 #slider a:hover {
   background: black;
   color: white;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+} */
