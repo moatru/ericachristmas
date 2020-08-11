@@ -35,7 +35,7 @@
   .padded   {  padding: 2% 5%;    }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
-  .bottom {padding-bottom: .8rem;}
+  .bottom {margin-bottom: .8rem;}
 
   .capped-width { width: 80%; margin: auto;}
 
@@ -208,19 +208,19 @@
     padding: 0.5rem;
   }
   nav a:hover {
-    color: #e67e22;
-  }
+    color: white;
+    background-color: black;}
 
   header nav a.emphasis {
     /* padding: 0.5rem 2rem; */
     margin: 0 0.5rem;
-    border: 1px solid #e67e22;
+    border: 1px solid #e94037;
     border-radius: 2px;
-    color: #e67e22;
+    color: #e94037;
   }
 
   header nav a.emphasis:hover {
-    background-color: #e67e22;
+    background-color: #e94037;
     color: white;
   }
 
