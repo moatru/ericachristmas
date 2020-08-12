@@ -83,42 +83,32 @@ nav.fixedB2{
 }
 
 /* PHOTO SLIDER B */
-/* #images {
-  width: 45%;
-  height: 72vh;
+#images2 {
+  width: 25rem;
+  height: 30rem;
   overflow: hidden;
   position: relative;
   margin-left:auto;
   margin-right:auto;
 }
-#images img {
-  background-image: contain;
+
+#images2 img {
   position: absolute;
   top: 0;
   left: -400px;
   z-index: 1;
   opacity: 0;
-  transition: all linear 500ms;
+  /* transition: all linear 500ms;
   -o-transition: all linear 500ms;
   -moz-transition: all linear 500ms;
-  -webkit-transition: all linear 500ms;
+  -webkit-transition: all linear 500ms; */
 }
-#images img:target {
+#images2 img:target {
   left: 0;
   z-index: 9;
   opacity: 1;
 }
-#images img:first-child {
+#images2 img:first-child {
   left: 0;
   opacity: 1;
 }
-#slider a {
-  text-decoration: none;
-  padding: 4px 6px;
-  color: black;
-  font-family:'Nova Cut', cursive;
-}
-#slider a:hover {
-  background: black;
-  color: white;
-} */

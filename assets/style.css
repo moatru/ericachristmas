@@ -102,8 +102,8 @@
 
   /* Icons */
 
-  .far {        /* default styles for font awesome icons */
-    font-size: 2rem;
+  .far, .fab{        /* default styles for font awesome icons */
+    font-size: 1.3rem;
     margin-bottom: 1rem;
   }
 
