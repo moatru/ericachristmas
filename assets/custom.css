@@ -9,13 +9,17 @@
   margin-right: auto;
 }
 
+.top{
+  margin-top: 50%;
+}
+
 /* 1 VERSION (A) */
 nav.fixedA{
   position: fixed;
   left: 12%;
   top: 50%;
   z-index: 20;
-  
+
 }
 
 #sidenav a{
@@ -26,7 +30,7 @@ nav.fixedA{
 
 /* PHOTO SLIDER A */
 #images {
-  width: 70%;
+  width: 25rem;
   height: 28rem;
   overflow: hidden;
   position: relative;
@@ -60,23 +64,22 @@ nav.fixedA{
   font-family:'Nova Cut', cursive;
 }
 #slider a:hover {
-  background: black;
-  color: white;
+  color: #770000 ;
 }
 
 /* 2 VERSION (B) */
 nav.fixedB{
   position: fixed;
-  top: 50%;
-  right: 10%;
+  top: 13rem;
+  left: 70%;
   width: 11rem;
   z-index: 20;
 }
 
 nav.fixedB2{
   position: fixed;
-  top: 50%;
-  right: 70%;
+  top: 40%;
+  right: 10rem;
 }
 
 /* PHOTO SLIDER B */
