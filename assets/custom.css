@@ -19,6 +19,7 @@ nav.fixedA{
   left: 12%;
   top: 50%;
   z-index: 20;
+  display: inline-block;
 
 }
 
@@ -74,6 +75,7 @@ nav.fixedB{
   left: 70%;
   width: 11rem;
   z-index: 20;
+
 }
 
 nav.fixedB2{
