@@ -11,7 +11,7 @@
 
 
 
-/* 1 VERSION (A) */
+/* 1 VERSION (A) NOT USING */
 nav.fixedA{
   position: fixed;
   left: 12%;
@@ -21,41 +21,8 @@ nav.fixedA{
 
 }
 
-#sidenav a{
-  padding: 4px 6px;
-  font-family: 'Amiko', sans-serif;
 
-}
-
-/* PHOTO SLIDER A */
-#images {
-  width: 21rem;
-  height: 26rem;
-  overflow: hidden;
-  position: relative;
-  margin-left:auto;
-  margin-right:auto;
-}
-#images img {
-  position: absolute;
-  top: 0;
-  left: -400px;
-  z-index: 1;
-  opacity: 0;
-  transition: all linear 500ms;
-  -o-transition: all linear 500ms;
-  -moz-transition: all linear 500ms;
-  -webkit-transition: all linear 500ms;
-}
-#images img:target {
-  left: 0;
-  z-index: 9;
-  opacity: 1;
-}
-#images img:first-child {
-  left: 0;
-  opacity: 1;
-}
+/* SLIDER & SOCIALS (FOOTER) */
 #slider a {
   text-decoration: none;
   padding: 4px 6px;
@@ -66,22 +33,7 @@ nav.fixedA{
   color: #770000 ;
 }
 
-/* 2 VERSION (B) */
-nav.fixedB{
-  position: fixed;
-  top: 13rem;
-  left: 70%;
-  width: 11rem;
-  z-index: 20;
-
-}
-
-nav.fixedB2{
-  position: fixed;
-  top: 40%;
-  right: 10rem;
-}
-
+/* 2 VERSION (B) - USING :) */
 /* PHOTO SLIDER B */
 #images2 {
   width: 30vw;
@@ -129,4 +81,73 @@ nav.fixedB2{
   top: 0;
   left: -400px;
   z-index: 1;
-  opacity: 0;
+  opacity: 0;}
+
+/* This media query kicks into action at the gridlex sm breakpoint */
+@media(max-width:576px) {
+  /* SLIDER & SOCIALS (FOOTER) */
+  #slider a {
+      text-decoration: none;
+      padding: 4px 6px;
+      color: black;
+      font-family:'Nova Cut', cursive;
+    }
+
+    #slider a:hover {
+      color: #770000 ;
+    }
+
+  /* 2 VERSION (B) - USING :) */
+  /* PHOTO SLIDER B */
+    #images2 {
+      width: 55vw;
+      height: 70vw;
+      max-height: 73vh;
+      overflow: hidden;
+      position: relative;
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+    #images2 img {
+      position: absolute;
+      top: 0;
+      left: -400px;
+      z-index: 1;
+      opacity: 0;
+      /* transition: all linear 500ms;
+      -o-transition: all linear 500ms;
+      -moz-transition: all linear 500ms;
+      -webkit-transition: all linear 500ms; */
+    }
+    #images2 img:target {
+      left: 0;
+      z-index: 9;
+      opacity: 1;
+    }
+    #images2 img:first-child {
+      left: 0;
+      opacity: 1;
+    }
+
+    #bio2 {
+      width: 55vw;
+      height: 70vw;
+      max-height: 73vh;
+      overflow: scroll;
+      position: relative;
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+    #images2 p {
+      position: absolute;
+      top: 0;
+      left: -400px;
+      z-index: 1;
+      opacity: 0;
+  }
+
+  .mob-centered {
+    text-align: center;     }
+}

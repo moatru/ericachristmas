@@ -737,4 +737,8 @@
   h2{
     font-size: 1.5rem;
   }
+
+  .mob-hideXS {
+    display: none;
+  }
 } /* end media query */
