@@ -1,3 +1,4 @@
+
 /*-----  CSS RESET  ------*/
 
   * {
@@ -103,8 +104,8 @@
   /* Icons */
 
   .far, .fab{        /* default styles for font awesome icons */
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
+    font-size: 12px;
+    /* margin-bottom: 1rem; */
   }
 
   .featured-stat {     /* styles for our featured statistic icons  */
