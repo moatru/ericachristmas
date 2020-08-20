@@ -115,3 +115,13 @@ nav.fixedB2{
   left: 0;
   opacity: 1;
 }
+
+#bio2 {
+  width: 30vw;
+  height: 37vw;
+  max-height: 70vh;
+  overflow: scroll;
+  position: relative;
+  margin-left:auto;
+  /* margin-right:auto; */
+}
