@@ -707,7 +707,7 @@
   .mob-centered {
     text-align: center;     }
 }
-}
+
 
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
