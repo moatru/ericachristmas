@@ -83,6 +83,12 @@ nav.fixedA{
   z-index: 1;
   opacity: 0;}
 
+
+  /* This media query kicks into action at the gridlex sm breakpoint */
+  @media(max-width:768px) {
+
+  }
+
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:576px) {
   /* SLIDER & SOCIALS (FOOTER) */
