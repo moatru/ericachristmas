@@ -695,10 +695,18 @@
 }
 
 /* This kicks in just under the md breaking point */
-@media(max-width:885px) {
+@media(max-width:1024px) {
 	h2{
     font-size: 2.5rem;
   }
+
+  .mob-hide {
+    display: none;
+  }
+
+  .mob-centered {
+    text-align: center;     }
+}
 }
 
 /* This media query kicks into action at the gridlex sm breakpoint */
@@ -710,6 +718,10 @@
   .hamburger{
     display: block;
   }
+
+  .mob-centered {
+    text-align: center;     }
+}
 
   .blog-item-wide .bg-image{
     padding-bottom: 60%;
