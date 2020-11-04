@@ -104,7 +104,7 @@
   /* Icons */
 
   .far, .fab{        /* default styles for font awesome icons */
-    font-size: 12px;
+    font-size: 16px;
     /* margin-bottom: 1rem; */
   }
 
@@ -310,8 +310,9 @@
     padding-right: 3rem;
   }
 
-  footer nav a {
-    display:block;
+  footer a {
+    display:inline-block;
+    padding: .8rem;
   }
 
   footer h3 {
