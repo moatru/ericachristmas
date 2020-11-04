@@ -754,4 +754,9 @@
   .mob-hideXS {
     display: none;
   }
+
+  .far, .fab{        /* default styles for font awesome icons */
+    font-size: 14px;
+    /* margin-bottom: 1rem; */
+  }
 } /* end media query */
