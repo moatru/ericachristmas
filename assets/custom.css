@@ -107,9 +107,9 @@ nav.fixedA{
   /* 2 VERSION (B) - USING :) */
   /* PHOTO SLIDER B */
     #images2 {
-      width: 55vw;
-      height: 80vw;
-      max-height: 75vh;
+      width: 70vw;
+      height: 85vw;
+      max-height: 85vh;
       overflow: hidden;
       position: relative;
       margin-left:auto;
