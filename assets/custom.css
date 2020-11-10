@@ -47,7 +47,7 @@ nav.fixedA{
 
 #images2 img {
   position: absolute;
-  top: 22%;
+  top: 18%;
   left: -400px;
   z-index: 1;
   opacity: 0;
@@ -118,7 +118,7 @@ nav.fixedA{
 
     #images2 img {
       position: absolute;
-      top: 22%;
+      top: 14%;
       left: -400px;
       z-index: 1;
       opacity: 0;
@@ -149,7 +149,7 @@ nav.fixedA{
 
     #images2 p {
       position: absolute;
-      top:15%;
+      top:0;
       left: -400px;
       z-index: 1;
       opacity: 0;
