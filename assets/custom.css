@@ -76,12 +76,12 @@ nav.fixedA{
   /* margin-right:auto; */
 }
 
-#images2 p {
+
+/* #bio2 p {
   position: absolute;
-  top:0;
-  left: -400px;
+  top: 18%;
   z-index: 1;
-  opacity: 0;}
+  opacity: 1;} */
 
 
   /* This media query kicks into action at the gridlex sm breakpoint */
@@ -138,9 +138,9 @@ nav.fixedA{
     }
 
     #bio2 {
-      width: 55vw;
-      height: 80vw;
-      max-height: 75vh;
+      width: 70vw;
+      height: 85vw;
+      max-height: 85vh;
       overflow: scroll;
       position: relative;
       margin-left:auto;
