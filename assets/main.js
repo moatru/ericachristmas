@@ -1,16 +1,15 @@
-
-
 $(document).ready(function() {
 	//make sure the page is ready befor running the scripts
-	// This is the hamburger menu
-	$(".hamburger").click(function(){
+	// This is hiding the 1st image on scroll
+	$("#slider a").click(function(){
 
-	  $(this).toggleClass('active');
-	  $(".mobile-menu").fadeToggle();
+	  $("#image1").removeClass('first-image');
 
 	});
-	// end hamburger menu
+	// end image fix
 
+
+// NOT USING ANYTHING BELOW CURRENTLY
 	// This is the pop-up gallery
 	$('.popup-gallery').magnificPopup({
 		delegate: 'a',

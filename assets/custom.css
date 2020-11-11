@@ -9,26 +9,14 @@
   margin-right: auto;
 }
 
-
-
-/* 1 VERSION (A) NOT USING */
-nav.fixedA{
-  position: fixed;
-  left: 12%;
-  top: 50%;
-  z-index: 20;
-  display: inline-block;
-
-}
-
-
-/* SLIDER & SOCIALS (FOOTER) */
+/* SLIDER */
 #slider a {
   text-decoration: none;
   padding: 4px 6px;
   color: black;
-  font-family:'Nova Cut', cursive;
+  font-family:'Nova Cut', sans-serif;
 }
+
 #slider a:hover {
   color: #770000 ;
 }
@@ -36,57 +24,61 @@ nav.fixedA{
 /* 2 VERSION (B) - USING :) */
 /* PHOTO SLIDER B */
 #images2 {
-  width: 30vw;
-  height: 37vw;
-  max-height: 70vh;
+  /* width: 30vw; */
+  height: 70vh;
+  max-height: 80vh;
   overflow: hidden;
   position: relative;
   margin-left:auto;
-  /* margin-right:auto; */
 }
 
 #images2 img {
   position: absolute;
-  top: 18%;
+  /* top: 18%; */
   left: -400px;
   z-index: 1;
   opacity: 0;
-  /* transition: all linear 500ms;
-  -o-transition: all linear 500ms;
-  -moz-transition: all linear 500ms;
-  -webkit-transition: all linear 500ms; */
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
 }
+
 #images2 img:target {
   left: 0;
   z-index: 9;
   opacity: 1;
 }
-#images2 img:first-child {
+
+#images2 img.first-image {
   left: 0;
   opacity: 1;
 }
 
 #bio2 {
-  width: 30vw;
-  height: 37vw;
-  max-height: 70vh;
+  /* width: 30vw; */
+  height: 70vw;
+  max-height: 80vh;
   overflow: scroll;
   position: relative;
   margin-left:auto;
   /* margin-right:auto; */
 }
 
+/* This kicks in just under the md breaking point */
+@media(max-width:1024px) {
+  #images2 {
+    height: 50vh;
+  }
 
-/* 
-#bio2 p {
-  position: absolute;
-  top: 18%;
-  z-index: 1;
-  opacity: 1;} */
+#bio2 {
+  height: 50vh;
 
+}
 
-  /* This media query kicks into action at the gridlex sm breakpoint */
-  @media(max-width:768px) {
+/* This media query kicks into action at the gridlex sm breakpoint */
+@media(max-width:768px) {
+
 
   }
 
@@ -94,68 +86,8 @@ nav.fixedA{
 @media(max-width:576px) {
   /* SLIDER & SOCIALS (FOOTER) */
   #slider a {
-      text-decoration: none;
       padding: 4px 6px;
-      color: black;
-      font-family:'Nova Cut', cursive;
       font-size: 10px;
     }
 
-    #slider a:hover {
-      color: #770000 ;
-    }
-
-  /* 2 VERSION (B) - USING :) */
-  /* PHOTO SLIDER B */
-    #images2 {
-      width: 70vw;
-      height: 85vw;
-      max-height: 85vh;
-      overflow: hidden;
-      position: relative;
-      margin-left:auto;
-      margin-right:auto;
-    }
-
-    #images2 img {
-      position: absolute;
-      top: 14%;
-      left: -400px;
-      z-index: 1;
-      opacity: 0;
-      /* transition: all linear 500ms;
-      -o-transition: all linear 500ms;
-      -moz-transition: all linear 500ms;
-      -webkit-transition: all linear 500ms; */
-    }
-    #images2 img:target {
-      left: 0;
-      z-index: 9;
-      opacity: 1;
-    }
-    #images2 img:first-child {
-      left: 0;
-      opacity: 1;
-    }
-
-    #bio2 {
-      width: 70vw;
-      height: 85vw;
-      max-height: 85vh;
-      overflow: scroll;
-      position: relative;
-      margin-left:auto;
-      margin-right:auto;
-    }
-
-    #images2 p {
-      position: absolute;
-      top:0;
-      left: -400px;
-      z-index: 1;
-      opacity: 0;
-  }
-
-  .mob-centered {
-    text-align: center;     }
-}
+   }
