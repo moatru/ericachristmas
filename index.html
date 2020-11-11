@@ -51,9 +51,9 @@ slider:
       {% for image in page.slider %}
       <!-- <img id="image{{forloop.index}}" src="{{image.image_path}}" alt="{{image.image_alt}}"> -->
       {% if forloop.index==1 %}
-      <img id="image{{forloop.index}}" src="{{image.image_path}}" alt="{{image.image_alt}}" class="first-image">
+      <img id="image{{forloop.index}}" src="{{image.image_path}}" alt="{{image.image_alt}}" class="first-image" />
       {% else %}
-      <img id="image{{forloop.index}}" src="{{image.image_path}}" alt="{{image.image_alt}}">
+      <img id="image{{forloop.index}}" src="{{image.image_path}}" alt="{{image.image_alt}}" />
       {% endif %}
       {% endfor %}
 
