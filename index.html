@@ -50,7 +50,7 @@ slider:
     <div id="images2" class="padded center centered">
       <img id="image1" src="/images/12.jpg" class="first-image">
       {% for image in page.slider %}
-      <img id="image{{forloop.index}}" src="{{image.image_path}}" alt="{{image.image_alt}}" {% if forloop.index=1 %} class="first-image" {% endif %}>
+      <img id="image{{forloop.index}}" src="{{image.image_path}}" alt="{{image.image_alt}}" {% if forloop.index==1 %} class="first-image" {% endif %}>
       {% endfor %}
 
     </div>
